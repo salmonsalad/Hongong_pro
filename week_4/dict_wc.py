@@ -2,7 +2,8 @@
 # 사전이라는 의미처럼 파일을 열어서 단어의 개수를 세는 데 사용한다.
 # 검색 'python dictionary word count'
 
-handle = open("list_lotto.py")
+handle = open("list_lotto.py","rt", encoding='UTF8')
+#open('파일경로.txt', 'rt', encoding='UTF8')
 
 # dictionary 초기화
 words_dict = dict() 
